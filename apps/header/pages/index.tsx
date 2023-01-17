@@ -16,13 +16,13 @@ export default function Header() {
   ]
 
   return (
-    <div
+    <nav
       style={{
         display: 'flex',
         alignItems: 'center',
         width: '100%',
         justifyContent: 'space-around',
-        backgroundColor: 'lightgoldenrodyellow',
+        boxShadow: 'rgba(149, 157, 165, 0.2) 0px 0px 24px',
       }}
     >
       <h1>Header from different universe</h1>
@@ -33,6 +33,6 @@ export default function Header() {
           </a>
         ))}
       </ul>
-    </div>
+    </nav>
   )
 }
