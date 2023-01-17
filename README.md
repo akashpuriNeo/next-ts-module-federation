@@ -1,6 +1,6 @@
-# Turborepo starter
+# Microfrontend Proof of Concept (PoC)
 
-This is an official Yarn v1 starter turborepo.
+This is a micro-fe poc built w/ [Next.js 13](https://nextjs.org/), [turborepo](https://turbo.build/repo), [TypeScript](https://www.typescriptlang.org/)
 
 ## What's inside?
 
@@ -8,9 +8,9 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/) as a package manager. I
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `main`: a [Next.js](https://nextjs.org/) app as consumer
+- `header`: a [Next.js](https://nextjs.org/) component
+- `ui`: a stub React component library shared by both `main` and `header` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
