@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "build:main": "turbo run build --filter=main...",
-    "build:header": "turbo run build --filter=header...",
+    "build:main": "turbo run build --filter=host-app...",
+    "build:header": "turbo run build --filter=remote-nextjs-component-module...",
     "clean": "turbo run clean && rm -rf node_modules",
     "dev": "turbo run dev --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",

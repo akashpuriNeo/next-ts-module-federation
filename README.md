@@ -8,9 +8,9 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/) as a package manager. I
 
 ### Apps and Packages
 
-- `main`: a [Next.js](https://nextjs.org/) app as consumer
-- `header`: a [Next.js](https://nextjs.org/) component
-- `ui`: a stub React component library shared by both `main` and `header` applications
+- `host-app`: a [Next.js](https://nextjs.org/) app as host
+- `remote-nextjs-component-module`: a [Next.js](https://nextjs.org/) remote component
+- `ui`: a stub React component library shared by both `main` and `remote-nextjs-component-module` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
