@@ -1,15 +1,16 @@
 {
-  "name": "micro-repo",
+  "name": "partment-monorepo",
   "version": "0.0.1",
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "apps/folder/*"
   ],
   "scripts": {
     "build": "turbo run build",
-    "build:main": "turbo run build --filter=host-app...",
-    "build:header": "turbo run build --filter=remote-nextjs-component-module...",
+    "build:main": "turbo run build --filter=parent-brand-app...",
+    "build:header": "turbo run build --filter=seller-common-dashboard...",
     "clean": "turbo run clean && rm -rf node_modules",
     "dev": "turbo run dev --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
